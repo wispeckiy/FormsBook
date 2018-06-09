@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photo", "Photo\Photo.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "equipment", "equipment\equipment.csproj", "{AC971F40-EA07-4337-B956-636F19C85A71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalousie", "Jalousie\Jalousie.csproj", "{1068756E-8439-4524-AF31-A29F5C2B31D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AC971F40-EA07-4337-B956-636F19C85A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC971F40-EA07-4337-B956-636F19C85A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC971F40-EA07-4337-B956-636F19C85A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1068756E-8439-4524-AF31-A29F5C2B31D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1068756E-8439-4524-AF31-A29F5C2B31D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1068756E-8439-4524-AF31-A29F5C2B31D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1068756E-8439-4524-AF31-A29F5C2B31D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
