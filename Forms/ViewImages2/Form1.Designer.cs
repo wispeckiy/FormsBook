@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -78,7 +77,7 @@
             this.button3.Size = new System.Drawing.Size(48, 23);
             this.button3.TabIndex = 3;
             this.button3.Text = "►";
-            this.toolTip1.SetToolTip(this.button3, resources.GetString("button3.ToolTip"));
+            this.toolTip1.SetToolTip(this.button3, "Далі");
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
