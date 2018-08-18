@@ -29,19 +29,19 @@ namespace Timer
                 t2 = t2.AddSeconds((double)numericUpDown2.Value);
                 groupBox1.Enabled = false;
                 button1.Text = "Стоп";
-                if(t2.Minute < 9)
+                if(t2.Minute < 10)
                 {
-                    label1.Text = "0" + t2.Minute.ToString() + ": ";
+                    label1.Text = "0" + t2.Minute.ToString() + ":";
                 }
-                else label1.Text = t2.Minute.ToString() + ": ";
-                if (t2.Second < 9)
+                else label1.Text = t2.Minute.ToString() + ":";
+                if (t2.Second < 10)
                 {
                     label1.Text += "0" + t2.Second.ToString();
                 }
                 else label1.Text += t2.Second.ToString();
                 timer1.Interval = 1000;
                 timer1.Enabled = true;
-                groupBox1.Visible = false;
+                groupBox1.Enabled = false;
             }
             else
             {
@@ -56,9 +56,9 @@ namespace Timer
         private void timer1_Tick(object sender, EventArgs e)
         {
             t2 = t2.AddSeconds(-1);
-            if (t2.Minute < 9) label1.Text = "0" + t2.Minute.ToString() + ":";
+            if (t2.Minute < 10) label1.Text = "0" + t2.Minute.ToString() + ":";
             else label1.Text = t2.Minute.ToString() + ":";
-            if (t2.Second < 9) label1.Text += "0" + t2.Second.ToString();
+            if (t2.Second < 10) label1.Text += "0" + t2.Second.ToString();
             else label1.Text += t2.Second.ToString();
             if (Equals(t1, t2))
             {
